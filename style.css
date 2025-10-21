@@ -80,7 +80,7 @@ p{
 .two-column-section{
     /* display:flex;
     justify-content: flex-start;
-    align-items: center; */
+    align-items: flex-start; */
     gap: 5%;
     margin-bottom: 100px;
 }
@@ -89,10 +89,14 @@ p{
     flex: 1;
 }
 
+
 .image-column img{
     width: 200px;
     height: auto;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
     float: right;
 }
